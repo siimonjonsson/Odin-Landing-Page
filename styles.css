@@ -1,0 +1,21 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+    margin: 0;
+    
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+    
+}
