@@ -2,13 +2,24 @@ body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.header {
+header, section, footer {
+    background-color: #1F2937;
+}
+
+.header-links, .main-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header {
     display: flex;
     justify-content: space-evenly;
 }
 
 .header-logo {
     margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
     
 }
 
@@ -16,6 +27,25 @@ body {
     display: flex;
     gap: 20px;
     list-style: none;
+}
 
-    
+.main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.wrapper {
+    background-color: #3882F6;
+}
+
+.main-button {
+    background-color: #3882F6;
+
+}
+
+aside h6 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
