@@ -1,51 +1,108 @@
+
+
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
 }
 
-header, section, footer {
+.wrapper {
     background-color: #1F2937;
 }
 
-.header-links, .main-subtext {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-header {
+.header {
     display: flex;
     justify-content: space-evenly;
 }
 
-.header-logo {
-    margin: 0;
+.header__h2 {
     font-size: 24px;
     color: #F9FAF8;
-    
+    margin: 0;
 }
 
-.header-links {
+.header__nav {
     display: flex;
-    gap: 20px;
-    list-style: none;
+    gap: 24px;
+    font-weight: bold;
 }
 
-.main-title {
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #9c9c9c;
+    text-decoration: none;    
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 60px;
+    padding-right: 110px;
+    padding-bottom: 60px;
+}
+
+.hero__h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    max-width: 350px;
 }
 
-.wrapper {
-    background-color: #3882F6;
+.hero__p {
+    font-size: 18px;
+    color: #9c9c9c;
+    max-width: 350px;
 }
 
-.main-button {
-    background-color: #3882F6;
-
+.hero__figure {
+    background-color: #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
 }
 
-aside h6 {
+.hero__figcaption {
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main__h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.article {
+    background-color: #dee0e3;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.aside, .button {
+    background-color: #3882F6;
+}
+
+.button {
+    color: white; 
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
 }

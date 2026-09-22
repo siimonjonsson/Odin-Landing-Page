@@ -7,43 +7,52 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h2 class="header-logo">Header Logo</h2>
-         <nav class="header-links">
-             <li><a href="#">header link one</a></li>
-             <li><a href="#">header link two</a></li>
-             <li><a href="#">header link three</a></li>
-         </nav>
-    </header>
 
-     <section>
-            <h1 class="main-title">This website is awesome!</h1>
-            <p class="main-subtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-            <button class="main-button">Sign Up</button>
+   <div class="wrapper">
+        <header class="header">
+            <h2 class="header__h2">Header Logo</h2>
+            <nav class="header__nav">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </nav>
+        </header>
+    
 
-            <figure>
-                <img src="placeholder-image.jpg" alt="Image Placeholder">
-                <figcaption>This is a placeholder for the image</figcaption>
-            </figure>
-    </section>
+    
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__h1">This website is awesome!</h1>
+                <p class="hero__p">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="button">Sign Up</button>
+            </div>
 
-     <main>
-         <h2>Some random information.</h2>
-        <p>Four boxes with different content.</p>
+             <div class="placeholder">
+             <figure class="hero__figure">
+                 <img src="placeholder-image.jpg" alt="Image Placeholder">
+                 <figcaption class="hero__figcaption">This is a placeholder for the image</figcaption>
+             </figure>
+             </div>
+        </section>
+    </div>
+
+     <main class="main">
+         <h2 class="main__h2">Some random information.</h2>
+        <p class="main__p">Four boxes with different content.</p>
      </main>
 
-    <article>
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe It's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice. <strong>-Thor, God of Thunder</strong></p>
+    <article class="article">
+        <p class="article__p">This is an inspiring quote, or a testimonial from a customer. Maybe It's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice. <strong>-Thor, God of Thunder</strong></p>
     </article>
 
-    <aside class="wrapper">
-        <h6>Call to action! It's time!</h6>
-        <p>Sign up for our product by clicking the button right over there!</p>
-        <button class="main-button">Sign Up</button>
+    <aside class="aside">
+        <h6 class="aside__h6">Call to action! It's time!</h6>
+        <p class="aside__p">Sign up for our product by clicking the button right over there!</p>
+        <button class="button">Sign Up</button>
     </aside>
 
-    <footer>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    <footer class="footer">
+        <p class="footer__p">&copy; 2024 Your Company. All rights reserved.</p>
     </footer>
 
 </body>
