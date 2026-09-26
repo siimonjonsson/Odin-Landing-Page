@@ -32,7 +32,11 @@ li {
 
 a {
     color: #9c9c9c;
-    text-decoration: none;    
+    text-decoration: none;   
+}
+
+a:hover {
+    color: #9c9c9cae;
 }
 
 .hero {
@@ -78,13 +82,33 @@ a {
     justify-content: center;
 }
 
-
-
 .main__h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
+
+.box {
+    border-style: groove;
+    border-color: #3882F6;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.box-container {
+    color: #dee0e3;
+    text-align: center;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+}
+
 
 .article {
     background-color: #dee0e3;
@@ -101,6 +125,12 @@ a {
 .button {
     color: white; 
     font-size: 18px;
+    transition: 0.2s ease;
+}
+
+.button:hover {
+    background-color: #9c9c9c;
+    
 }
 
 .footer {
