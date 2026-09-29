@@ -161,13 +161,17 @@ a:hover {
 .button__wrap {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 
 .button {
+    border-radius: 8px;
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: bold;
     transition: 0.2s ease;
+    padding: 5px 20px 5px 20px;
 }
 
 .button:hover {
@@ -176,4 +180,14 @@ a:hover {
 
 .footer {
     background-color: #1F2937;
+    margin: 35px 0 0 0;
+    
+}
+
+.footer__p {
+    color: whitesmoke;
+    text-align: center;
+    padding: 35px;
+    margin: 0;
+    
 }
