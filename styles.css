@@ -63,18 +63,28 @@ a:hover {
 }
 
 .hero__figure {
-    background-color: #9c9c9c;
+    background-color: #374151;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     width: 400px;
+    height: auto;
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hero__figure img {
+    width: 100%;
     height: 200px;
+    object-fit: cover;
+    display: block;
 }
 
 .hero__figcaption {
     color: whitesmoke;
     text-align: center;
+    font-size: 15px;
+    padding: 8px 12px;
 }
 
 .placeholder {
@@ -95,6 +105,14 @@ a:hover {
     border-radius: 25px;
     width: 150px;
     height: 150px;
+    overflow: hidden;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .box-container {
@@ -130,6 +148,7 @@ a:hover {
     font-size: 20px;
     display: block;
     text-align: right;
+    padding-top: 15px;
     padding-right: 60px;
 }
 
@@ -161,9 +180,7 @@ a:hover {
 .button__wrap {
     display: inline-block;
     margin-left: 25px;
-    
 }
-
 
 .button {
     border-radius: 8px;
