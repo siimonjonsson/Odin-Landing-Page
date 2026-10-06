@@ -440,6 +440,8 @@ a:hover {
     .aside__p {
         display: block;
         padding: 0;
+        margin-top: 12px;
+        font-weight: normal;
     }
 
     .button__wrap {
