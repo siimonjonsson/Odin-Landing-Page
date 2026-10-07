@@ -440,8 +440,8 @@ a:hover {
     .aside__p {
         display: block;
         padding: 0;
-        margin-top: 12px;
-        font-weight: normal;
+        margin-top: 14px;
+        
     }
 
     .button__wrap {
@@ -452,4 +452,8 @@ a:hover {
     .footer__p {
         padding: 28px 16px;
     }
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
 }
